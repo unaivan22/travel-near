@@ -1,0 +1,38 @@
+{"Vacation": [
+        {
+            "vacationName" : "Klayar Beach",
+            "vacationRating" : "4.5",
+            "vacationDistance" : "1.200",
+            "vacationImage" : "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "link" : "/projects/peken"
+        },
+        {
+            "vacationName" : "Klayar Beach",
+            "vacationRating" : "4.5",
+            "vacationDistance" : "1.200",
+            "vacationImage" : "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=468&q=80",
+            "link" : "/projects/peken"
+        },
+        {
+            "vacationName" : "Klayar Beach",
+            "vacationRating" : "4.5",
+            "vacationDistance" : "1.200",
+            "vacationImage" : "https://images.unsplash.com/photo-1594794637446-96206da170be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "link" : "/projects/peken"
+        },
+        {
+            "vacationName" : "Klayar Beach",
+            "vacationRating" : "4.5",
+            "vacationDistance" : "1.200",
+            "vacationImage" : "https://images.unsplash.com/photo-1508591086314-d7deb00cede9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+            "link" : "/projects/peken"
+        },
+        {
+            "vacationName" : "Klayar Beach",
+            "vacationRating" : "4.5",
+            "vacationDistance" : "1.200",
+            "vacationImage" : "https://images.unsplash.com/photo-1506355683710-bd071c0a5828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "link" : "/projects/peken"
+        }
+    ]
+}
