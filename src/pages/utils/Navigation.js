@@ -1,29 +1,25 @@
 import React from 'react'
+import { MdOutlineLuggage } from "react-icons/md";
+import { MdBeachAccess } from "react-icons/md";
+import { MdOutlineLandscape } from "react-icons/md";
+import { MdWater } from "react-icons/md";
+import { MdOutlineWaterfallChart } from "react-icons/md";
+import { MdCorporateFare } from "react-icons/md";
 
 export default function Navigation() {
   return (
     <div className='relative md:container mx-auto px-4 py-6'>
-        {/* <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
-            <option disabled>Choose a country</option>
-            <option selected value="Indonesia">Indonesia</option>
-            <option value="US">United States</option>
-            <option value="CA">Canada</option>
-            <option value="FR">France</option>
-            <option value="DE">Germany</option>
-        </select> */}
 
-        <div class="grid grid-cols-3 gap-4">
-            <div className='grid grid-cols-2 text-right gap-x-4'>
-                <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+        <div class="grid grid-cols-2 gap-4">
+            <div className='grid grid-cols-2 text-right gap-x-4 container-filter'>
+                <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
                     <option disabled>Choose a country</option>
-                    <option selected value="Indonesia">Indonesia</option>
-                    <option value="US">United States</option>
-                    <option value="CA">Canada</option>
-                    <option value="FR">France</option>
-                    <option value="DE">Germany</option>
+                    <option value="1" selected>Indonesia</option>
+                    <option value="2">Malaysia</option>
+                    <option value="3">Singapore</option>
                 </select>
-                <select id="province" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
-                    <option disabled>Choose a country</option>
+                <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                    <option disabled>Choose a province</option>
                     <option selected value="Java">Java</option>
                     <option value="SUM">Sumatera</option>
                     <option value="KAL">Kalimanatan</option>
@@ -31,6 +27,37 @@ export default function Navigation() {
                     <option value="SUL">Sulawesi</option>
                 </select>
             </div>
+
+            <div className='grid grid-cols-1 text-right gap-x-4'>
+                <ul className='flex gap-x-6' >
+                    <li className='text-center border-b-2 border-gray-400'>
+                        <MdOutlineLuggage style={{margin: 'auto', fontSize: '24px', color: 'grey'}} />
+                        <button type="button" class="group text-sm text-gray-800 w-full flex flex-col items-center ">All Vacation</button>
+                    </li>
+                    <li className='text-center'>
+                        <MdBeachAccess style={{margin: 'auto', fontSize: '24px', color: '#d0d0d0'}} />
+                        <button type="button" class="group text-sm text-gray-400 w-full flex flex-col items-center ">Beach</button>
+                    </li>
+                    <li className='text-center'>
+                        <MdOutlineLandscape style={{margin: 'auto', fontSize: '24px', color: '#d0d0d0'}} />
+                        <button type="button" class="group text-sm text-gray-400 w-full flex flex-col items-center ">Mount</button>
+                    </li>
+                    <li className='text-center'>
+                        <MdWater style={{margin: 'auto', fontSize: '24px', color: '#d0d0d0'}} />
+                        <button type="button" class="group text-sm text-gray-400 w-full flex flex-col items-center ">Lake</button>
+                    </li>
+                    <li className='text-center'>
+                        <MdOutlineWaterfallChart style={{margin: 'auto', fontSize: '24px', color: '#d0d0d0'}} />
+                        <button type="button" class="group text-sm text-gray-400 w-full flex flex-col items-center ">Waterfall</button>
+                    </li>
+                    <li className='text-center'>
+                        <MdCorporateFare style={{margin: 'auto', fontSize: '24px', color: '#d0d0d0'}} />
+                        <button type="button" class="group text-sm text-gray-400 w-full flex flex-col items-center ">Urban</button>
+                    </li>
+                </ul>
+            </div>
+
+
 
         </div>
     </div>

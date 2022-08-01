@@ -8,18 +8,18 @@ class List extends Component {
                 {
 					data.Vacation.map((vacation, i) => {
 						return (
-							<div class="overflow-hidden mb-12">
-                                <img class="w-full aspect-square object-cover rounded-2xl" src={vacation.vacationImage} alt="Mountain" />
-                                <div class="py-4">
+							<a href='' className="overflow-hidden mb-12">
+                                <img className="w-full aspect-square object-cover rounded-2xl" src={vacation.vacationImage} alt="Mountain" />
+                                <div className="py-4">
                                     <div className='grid grid-cols-2'>
                                         <h1 className='font-bold mb-2 text-lg'>{vacation.vacationName}</h1>
                                         <div className='grid grid-cols-1 text-right'>
-                                            <h1 className='text-md'>{vacation.vacationRating}<span>&#9733;</span> </h1>
+                                            <h1 className='text-md'>{vacation.vacationRating}<span className='px-1 rating-star' >&#9733;</span> </h1>
                                         </div>
                                     </div>
-                                    <p class="text-gray-700 text-base text-sm"> {vacation.vacationDistance} kilometers away </p>
+                                    <p className="text-gray-700 text-base text-sm"> {vacation.vacationDistance} kilometers away </p>
                                 </div>
-                            </div>
+                            </a>
 						);
 					})
 				}
