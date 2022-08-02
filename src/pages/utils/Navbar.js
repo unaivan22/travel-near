@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { MdSearch } from "react-icons/md";
 import { MdOutlinePlace } from "react-icons/md";
 
@@ -6,10 +7,10 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-b border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
         <div className="relative md:container mx-auto px-4 flex flex-wrap justify-between items-center mx-auto">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
                 <img src="assets/media/Logo/logo.png" className="mr-3 h-8" alt="Flowbite Logo" />
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-dark ">Travel Near Me </span> <MdOutlinePlace style={{color: 'gray', fontSize: '24px', margin: '0 .5rem 0 3rem'}}/> Madiun, East Java, Indoneias
-            </a>
+            </Link>
             <div className="flex md:order-2 items-center">
                 <MdSearch style={{color: 'gray', fontSize: '55px', padding: '0 1rem'}}/>
                 <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded-xl">Sign In</button>

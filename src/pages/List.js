@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 import data from './data/data.json'
 
 class List extends Component {
@@ -8,7 +9,7 @@ class List extends Component {
                 {
 					data.Vacation.map((vacation, i) => {
 						return (
-							<a href='' className="overflow-hidden mb-12">
+							<Link to={vacation.link} className="overflow-hidden mb-12">
                                 <img className="w-full aspect-square object-cover rounded-2xl" src={vacation.vacationImage} alt="Mountain" />
                                 <div className="py-4">
                                     <div className='grid grid-cols-2'>
@@ -19,7 +20,7 @@ class List extends Component {
                                     </div>
                                     <p className="text-gray-700 text-base text-sm"> {vacation.vacationDistance} kilometers away </p>
                                 </div>
-                            </a>
+                            </Link>
 						);
 					})
 				}

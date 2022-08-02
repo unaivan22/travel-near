@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className='border-t border-gray-200'>
         <div className='relative md:container mx-auto px-4 py-6'>
-            <div class="grid grid-cols-5 gap-20">
+            <div class="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-20">
                 <div className='grid grid-cols-1 content-start'>
                     <div className='py-5'>
                         <img src='assets/media/Logo/logoFooter.png' />

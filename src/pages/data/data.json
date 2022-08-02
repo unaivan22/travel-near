@@ -4,84 +4,84 @@
             "vacationRating" : "4.5",
             "vacationDistance" : "133",
             "vacationImage" : "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Karimun Jawa",
             "vacationRating" : "4.5",
             "vacationDistance" : "390",
             "vacationImage" : "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=468&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Tawangmangu",
             "vacationRating" : "4.5",
             "vacationDistance" : "57",
             "vacationImage" : "https://images.unsplash.com/photo-1594794637446-96206da170be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Bromo",
             "vacationRating" : "4.5",
             "vacationDistance" : "270",
             "vacationImage" : "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Madakaripura Waterfall",
             "vacationRating" : "4.5",
             "vacationDistance" : "254",
             "vacationImage" : "https://images.unsplash.com/photo-1519582149095-fe7d19b2a3d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Coban Pelangi Waterfall",
             "vacationRating" : "4.5",
             "vacationDistance" : "263",
             "vacationImage" : "https://images.unsplash.com/photo-1524338198850-8a2ff63aaceb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Tanjung Lesung Beach",
             "vacationRating" : "4.5",
             "vacationDistance" : "821",
             "vacationImage" : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Pangandaran Beach",
             "vacationRating" : "4.5",
             "vacationDistance" : "506",
             "vacationImage" : "https://images.unsplash.com/photo-1525183995014-bd94c0750cd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Sarangan",
             "vacationRating" : "4.5",
             "vacationDistance" : "60",
             "vacationImage" : "https://images.unsplash.com/photo-1642651485273-19e7f1bcc899?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=363&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Surabaya",
             "vacationRating" : "4.5",
             "vacationDistance" : "180",
             "vacationImage" : "https://images.unsplash.com/photo-1601658591776-bca905a5ec35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Semeru Mount",
             "vacationRating" : "4.5",
             "vacationDistance" : "258",
             "vacationImage" : "https://images.unsplash.com/photo-1562157778-81d81be57eec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         },
         {
             "vacationName" : "Merbabu Mount",
             "vacationRating" : "4.5",
             "vacationDistance" : "153",
             "vacationImage" : "https://images.unsplash.com/photo-1571738318198-fda6afce5348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
-            "link" : "/projects/peken"
+            "link" : "/detail"
         } 
     ]
 }
