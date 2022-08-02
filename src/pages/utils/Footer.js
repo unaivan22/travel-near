@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='border-t border-gray-200'>
         <div className='relative md:container mx-auto px-4 py-6'>
             <div class="grid grid-cols-5 gap-20">
-                <div className='grid grid-cols-1'>
+                <div className='grid grid-cols-1 content-start'>
                     <div className='py-5'>
                         <img src='assets/media/Logo/logoFooter.png' />
                     </div>
